@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroUtility</string>
+    <string name="menu_settings">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="button0">0</string>
+    <string name="button1">1</string>
+    <string name="button2">2</string>
+    <string name="button3">3</string>
+    <string name="button4">4</string>
+    <string name="button5">5</string>
+    <string name="button6">6</string>
+    <string name="button7">7</string>
+    <string name="button8">8</string>
+    <string name="button9">9</string>
+    <string name="buttonAdd">+</string>
+    <string name="buttonSubtract">-</string>
+    <string name="buttonMultiply">*</string>
+    <string name="buttonDivide">/</string>
+    <string name="buttonToggleSign">+/-</string>
+    <string name="buttonDecimalPoint">.</string>
+    <string name="buttonEquals">=</string>
+    <string name="buttonClear">C</string>
+    <string name="buttonClearMemory">MC</string>
+    <string name="buttonAddToMemory">M+</string>
+    <string name="buttonSubtractFromMemory">M-</string>
+    <string name="buttonRecallMemory">MR</string>
+    <string name="buttonSquareRoot">√</string>
+    <string name="buttonSquared">x²</string>
+    <string name="buttonInvert">1/x</string>
+    <string name="buttonSine">sin</string>
+    <string name="buttonCosine">cos</string>
+    <string name="buttonTangent">tan</string>
+    <string name="title_activity_length">Length Conversion</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="lengthArray">
+        <item>Foot to Meter</item>
+        <item>Meter to Foot</item>
+        <item>Yard to Meter</item>
+        <item>Meter to Yard</item>
+        <item>Mile to Kilometer</item>
+        <item>Kilometer to Mile</item>
+        <item>Nautical miles to Meters</item>
+        <item>Meters to Nautical Miles</item>
+        <item>Inch to Cemtimeter</item>
+        <item>Centimeter to Inch</item>
+    </string-array>
+
+    <string name="title_activity_weight">WeightActivity</string>
+
+    <string-array name="weightArray">
+        <item>Ounce to Gram</item>
+        <item>Gram to Ounce</item>
+        <item>Pounds to Kilogram</item>
+        <item>Kilogram to Pound</item>
+        <item>Gram to Grain</item>
+        <item>Grain to Gram</item>
+        <item>Metricton to Kilogram</item>
+        <item>Kilogram to Metricton</item>
+    </string-array>
+
+    <string name="title_activity_area">AreaActivity</string>
+
+    <string-array name="areaArray">
+        <item>Acre to Sqr-meter</item>
+        <item>Sqr-meter to Acre</item>
+        <item>Hectare to Acre</item>
+        <item>Acre to Hectare</item>
+        <item>Sqr-foot to Sqr-centimeter</item>
+        <item>Sqr-centimeter to Sqr-foot</item>
+        <item>Sqr-inch to Sqr-centimeter</item>
+        <item>Sqr-centimeter to Sqr-inch</item>
+        <item>Sqr-foot to Sqr-meter</item>
+        <item>Sqr-meter to Sqr-foot</item>
+    </string-array>
+
+    <string name="title_activity_volume">VolumeActivity</string>
+
+    <string-array name="volumeArray">
+        <item>Gallon[UK] to Liter</item>
+        <item>Liter to Gallon[UK]</item>
+        <item>Gallon[US] to Liter</item>
+        <item>Liter to Gallon[US]</item>
+        <item>Cubic-inch to Cubic-centimeter</item>
+        <item>Cubic-centimeter to Cubic-inch</item>
+        <item>Cubic-foot to Cubic-meter</item>
+        <item>Cubic-meter to Cubic-foot</item>
+        <item>Cubic-yard to Cubic-meter</item>
+        <item>Cubic-meter to Cubic-meter</item>
+    </string-array>
+
+    <string name="title_activity_speed">SpeedActivity</string>
+
+    <string-array name="speedArray">
+        <item>Kmph to M/S</item>
+        <item>M/S to Kmph</item>
+        <item>Knot to Mph</item>
+        <item>Mph to Knot</item>
+        <item>Mile/h to Kmph</item>
+        <item>Kmph to Mile/h</item>
+    </string-array>
+
+    <string name="title_activity_others">OthersActivity</string>
+	
+    <string-array name="othersArray">
+        <item>atm to Pa</item>
+        <item>Pa to atm</item>
+        <item>mmHg to Pa</item>
+        <item>Pa to mmHg</item>
+        <item>HorsePower to Kilowatt</item>
+        <item>Kilowatt to HorsePower</item>
+        <item>Joule to Calorie</item>
+        <item>Calorie to Joule</item>
+    </string-array>
+</resources>

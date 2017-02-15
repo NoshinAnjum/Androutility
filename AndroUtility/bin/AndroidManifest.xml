@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androutility"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.androutility.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.androutility.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.androutility.Menu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.androutility.Calculator"
+            android:label="Calculator Chooser" >
+            <intent-filter>
+                <action android:name="com.example.androutility.Calculator" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.androutility.EquationSolver"
+            android:label="Equation Solver" >
+            <intent-filter>
+                <action android:name="com.example.androutility.EquationSolver" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.androutility.UnitConverter"
+            android:label="Unit Converter" >
+            <intent-filter>
+                <action android:name="com.example.androutility.UnitConverter" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.androutility.todo_mainActivity"
+            android:label="TO DO List" >
+            <intent-filter>
+                <action android:name="com.example.androutility.todo_mainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.androutility.scientific_calculator" />
+        <activity android:name="com.example.androutility.normal_calculator" />
+        <activity android:name="com.example.androutility.NoteEditor" />
+        <activity
+            android:name="com.example.androutility.LengthActivity"
+            android:label="@string/title_activity_length" >
+        </activity>
+        <activity
+            android:name="com.example.androutility.WeightActivity"
+            android:label="@string/title_activity_weight" >
+        </activity>
+        <activity
+            android:name="com.example.androutility.AreaActivity"
+            android:label="@string/title_activity_area" >
+        </activity>
+        <activity
+            android:name="com.example.androutility.VolumeActivity"
+            android:label="@string/title_activity_volume" >
+        </activity>
+        <activity
+            android:name="com.example.androutility.SpeedActivity"
+            android:label="@string/title_activity_speed" >
+        </activity>
+        <activity
+            android:name="com.example.androutility.OthersActivity"
+            android:label="@string/title_activity_others" >
+        </activity>
+    </application>
+
+</manifest>
